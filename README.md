@@ -17,6 +17,8 @@ Note that SA is an iteration-intensive algorithm where the number of iterations 
 
 Finally, choose both initial (_T_<sub>0</sub>) and minimum (_T_<sub>min</sub>) temperatures wisely since they affect the acceptance probability, which impacts the overall tuning result. _T_<sub>0</sub> should be large enough to make the initial acceptance probability closer to 1, and _T_<sub>min</sub> should be much lower so that the acceptance probability decreases gradually throughout the annealing process. Fischetti and Stringher (2019) chose _T_<sub>0</sub> = 1 and considered a temperature reduction of 3 to 5 times, which has reduced the acceptance probability low enough. Therefore, we decided to set _T_<sub>0</sub> = 100 and _T_<sub>min</sub> = 30 (achieved after five times temperature reductions) for this project.
 
+### Google Colab
 
+Use Google Colab for faster execution of the code https://colab.google/
 
 
